@@ -9,6 +9,7 @@ Mystring::Mystring()
     *str = '\0';
 }
 
+
 // Overloaded constructor
 Mystring::Mystring(const char *s) 
     : str {nullptr} {
@@ -35,7 +36,7 @@ Mystring::~Mystring() {
 
 // Display method
 void Mystring::display() const {
-    std::cout << str << " : " << get_length() << std::endl;
+    std::cout <<"Checks "<< str << " : " << get_length() << std::endl;
 }
 
 // length getter

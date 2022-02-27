@@ -45,7 +45,7 @@ Mystring &Mystring::operator=(const Mystring &rhs) {
 }
 
 
-// Display method
+// Display method 
 void Mystring::display() const {
     std::cout << str << " : " << get_length() << std::endl;
 }
