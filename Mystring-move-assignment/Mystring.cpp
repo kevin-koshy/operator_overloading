@@ -65,6 +65,7 @@ Mystring &Mystring::operator=(Mystring &&rhs) {
     if (this == &rhs) 
         return *this;
     delete [] str;
+    // strcpy(str, rhs.str);
     str = rhs.str;
     rhs.str = nullptr;
     return *this;
