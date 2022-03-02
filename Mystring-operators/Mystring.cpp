@@ -40,6 +40,7 @@ Mystring::Mystring( Mystring &&source)
 // Destructor
 Mystring::~Mystring() {
     delete [] str;
+    cout<<"Destructor called "<<std::endl;
 }
 
 // Copy assignment operator
